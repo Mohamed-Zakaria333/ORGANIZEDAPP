@@ -14,6 +14,7 @@
 		0C23813421AAF2C70087F124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C23813321AAF2C70087F124 /* Assets.xcassets */; };
 		0C23814421AAF3A20087F124 /* ADEL.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C23814321AAF3A20087F124 /* ADEL.storyboard */; };
 		0C23814721AAF3E40087F124 /* MENA.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C23814621AAF3E40087F124 /* MENA.storyboard */; };
+		0C23815121AAF6D20087F124 /* SSRadioButtonController in Resources */ = {isa = PBXBuildFile; fileRef = 0C23815021AAF6D20087F124 /* SSRadioButtonController */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0C23813821AAF2C70087F124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C23814321AAF3A20087F124 /* ADEL.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ADEL.storyboard; sourceTree = "<group>"; };
 		0C23814621AAF3E40087F124 /* MENA.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MENA.storyboard; sourceTree = "<group>"; };
+		0C23815021AAF6D20087F124 /* SSRadioButtonController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SSRadioButtonController; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,11 @@
 		0C23812821AAF2C70087F124 /* ORGANIZEDAPP */ = {
 			isa = PBXGroup;
 			children = (
-				0C23814221AAF3550087F124 /* Core_data */,
 				0C23814121AAF30D0087F124 /* FOR ALL */,
 				0C23814021AAF2EC0087F124 /* MENA */,
 				0C23813F21AAF2E00087F124 /* ADEL */,
 				0C23813E21AAF2D50087F124 /* Zekoo */,
+				0C23814221AAF3550087F124 /* Core_data */,
 			);
 			path = ORGANIZEDAPP;
 			sourceTree = "<group>";
@@ -101,9 +103,9 @@
 		0C23814121AAF30D0087F124 /* FOR ALL */ = {
 			isa = PBXGroup;
 			children = (
+				0C23812921AAF2C70087F124 /* AppDelegate.swift */,
 				0C23813321AAF2C70087F124 /* Assets.xcassets */,
 				0C23813821AAF2C70087F124 /* Info.plist */,
-				0C23812921AAF2C70087F124 /* AppDelegate.swift */,
 			);
 			path = "FOR ALL";
 			sourceTree = "<group>";
@@ -178,6 +180,7 @@
 		0C23814F21AAF4660087F124 /* HELPERS */ = {
 			isa = PBXGroup;
 			children = (
+				0C23815021AAF6D20087F124 /* SSRadioButtonController */,
 			);
 			path = HELPERS;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				0C23813421AAF2C70087F124 /* Assets.xcassets in Resources */,
 				0C23814421AAF3A20087F124 /* ADEL.storyboard in Resources */,
 				0C23812F21AAF2C70087F124 /* ZEKOO.storyboard in Resources */,
+				0C23815121AAF6D20087F124 /* SSRadioButtonController in Resources */,
 				0C23814721AAF3E40087F124 /* MENA.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -374,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -387,7 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ORGANIZEDAPP/Info.plist;
+				INFOPLIST_FILE = "ORGANIZEDAPP/FOR ALL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WzyoU.ORGANIZEDAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,7 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ORGANIZEDAPP/Info.plist;
+				INFOPLIST_FILE = "ORGANIZEDAPP/FOR ALL/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.WzyoU.ORGANIZEDAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
